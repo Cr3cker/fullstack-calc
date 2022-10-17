@@ -1,0 +1,39 @@
+html[data-theme='dark'] body {
+    background: #41295a;
+    background: -webkit-linear-gradient(to right, #2F0743, #41295a);
+    background: linear-gradient(to right, #2F0743, #41295a);
+}
+
+html[data-theme='dark'] table {
+    filter: invert(1) hue-rotate(180deg)
+}
+
+table {
+    margin: auto;
+    height: 350px;
+    width: 270px;
+    padding-top: 150px
+}
+
+input {
+    width: 100px;
+    height: 60px;
+    font-size: 35px
+}
+
+button {
+    width: 100px;
+    height: 60px;
+    font-size: 35px
+}
+
+td {
+    text-align: center;
+}
+
+body {
+    background: #a80077;
+    background: -webkit-linear-gradient(to right, #66ff00, #a80077);
+    background: linear-gradient(to right, #66ff00, #a80077);
+}
+
